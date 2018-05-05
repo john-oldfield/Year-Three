@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <EditText
+        android:id="@+id/ID_input"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:hint="@string/ID"/>
+<!--    <EditText
+        android:id="@+id/title_input"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_below="@+id/ID_input"
+        android:hint="@string/title"/>
+    <EditText
+        android:id="@+id/artist_input"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_below="@id/title_input"
+        android:hint="@string/artist"/>
+    <EditText
+        android:id="@+id/year_input"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_below="@id/artist_input"
+        android:hint="@string/year"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ADD_SONG"
+        android:id="@+id/add_btn"
+        android:layout_below="@+id/year_input"/>-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SEARCH"
+        android:id="@+id/search_btn"
+        android:layout_below="@+id/ID_input"/>
+
+<!--    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/UPDATE"
+        android:id="@+id/update_btn"
+        android:layout_below="@+id/search_btn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/DELETE"
+        android:id="@+id/delete_btn"
+        android:layout_below="@+id/update_btn"/>-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/ic_create_black_24dp"/>
+</RelativeLayout>
+
+
+

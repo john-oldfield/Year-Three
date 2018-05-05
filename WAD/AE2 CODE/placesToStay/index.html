@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PlacesToStay</title>
+        <link rel='stylesheet' type='text/css' href='/wad/leaflet/leaflet.css' />
+        <script type='text/javascript' src='/wad/leaflet/leaflet.js'></script>
+        <script type="text/javascript" src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="init();">
+        <div id="wrapper">
+            <header><h1>Places To Stay!</h1></header>
+            <section id="form-container">
+                <form id="searchForm">
+                    <p>Accommodation Search</p>
+                    <input type="text" placeholder="Enter a location" id="location"><br/>
+                    <span>E.g. Southampton, Derby</span><br/>
+                    <input type="button" value="SEARCH" id="searchBtn">
+                </form>
+            </section>  
+            <section id="searchResults">
+                <div id="response"></div>
+                <div id="error"></div>
+            </section>
+            <section id="canvas-container">
+                <p id="quickBookTitle">Quick book for 1? 01/04/18 - 05/04/18</p>
+                <p>Click a date below to instantly book a room!</p>
+                <input type="hidden" id="canvasAccID">
+                <canvas id="myCanvas" height="70" width="310"></canvas>
+            </section>
+            <div id="message-container">
+                <div id="canvas-message"></div>
+            </div>
+            <div id="map" style="width: 600px; height: 400px"></div>
+            <div id="booking-form-container">
+                <form id="booking-form">
+                    <p>Booking Form</p>
+                    <input type="date" id="date"><br/>  <!-- DATE INPUT CAN ONLY BE USED IN GOOGLE CHROME -->
+                    <input type="text" id="npeople" placeholder="Number of People"><br/>
+                    <input type="text" id="username" placeholder="Username"><br/>
+                    <input type="password" id="password" placeholder="Password"><br/>
+                    <input type="hidden" id="hiddenField">
+                    <input type="button" id="bookBtn" value="Submit">
+                </form>
+                <section id="booking-results"></section>
+            </div>
+        </div>
+    </body>
+</html>

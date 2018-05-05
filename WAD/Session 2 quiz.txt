@@ -1,0 +1,27 @@
+$a = $_GET["destination"];
+$conn = new PDO("mysql:host=localhost;dbname=flightsdb","user","pass");
+$result = $conn->query("SELECT * FROM flights WHERE dest='$a'");
+$allRes = $result->fetch(PDO::FETCH_ASSOC);
+
+foreach($allRes as $curRes)
+{
+    echo "Date: $curRes[date] ";
+    echo "Depart Time: $curRes[time] <br />";
+}
+
+1.
+$a -> Input from a Query String
+$allRes -> Array of associative arrays
+$curRes -> Associative array
+
+2.
+$allRes[3]["arrivalTime"] -> Arrival Time for the 4th result.
+
+3.
+Array -> A variable holding multiple values, where the values are indexed using numerical values, starting at 0.
+Associative array -> A variable holding multiple values, where the values are indexed using non-numerical values (e.g. text).
+
+
+
+
+

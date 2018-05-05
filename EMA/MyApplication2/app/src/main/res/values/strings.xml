@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">User Interfaces</string>
+    <string name="helloworld">Hello World</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="search" />
+
+</resources>

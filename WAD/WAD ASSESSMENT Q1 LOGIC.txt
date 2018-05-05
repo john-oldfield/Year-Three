@@ -1,0 +1,11 @@
+if isset type && isset location	
+	search on both
+else if isset type	
+	search on type
+else if isset location	
+	search on location
+	
+	
+ws.php?location=..&type=...
+ws.php?location=...
+ws.php?type=...

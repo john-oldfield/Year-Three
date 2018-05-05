@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PlacesToStay with no map</title>
+        <script type="text/javascript" src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="init();">
+        <div id="wrapper">
+            <header><h1>Places To Stay! with no map</h1></header>
+            <section id="form-container">
+                <form id="searchForm">
+                    <p>Accommodation Search</p>
+                    <input type="text" placeholder="Enter a location" id="location"><br/>
+                    <span>E.g. Hampshire, Torquay</span><br/>
+                    <input type="button" value="SEARCH" id="searchBtn">
+                </form>
+            </section>  
+            <section id="searchResults">
+                <div id="response"></div>
+                <div id="error"></div>
+            </section>
+        </div>
+    </body>
+</html>

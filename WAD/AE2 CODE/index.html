@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>John Oldfield - WAD</title>
+    </head>
+    <body>
+        <h1>WAD REQUIREMENTS</h1>
+        <p>Task 1 - Create a web service to allow clients to look up all accommodation in a given location; all accommodation of a given type; and both.</p><a href="accommodationWebService.php?location=hampshire">Accommodation Web Service</a>
+        <hr>
+        <p>Task 2 - Create a web service to allow clients to book a place of accommodation for a given number of people on a given date. This should communicate its success or otherwise to its clients appropriately. *Accommodation ID would normally be hidden field but for testing is shown as text.*</p>
+        <form method= "post" action="bookAccommodationWebService.php">
+            <input type="text" name="user" placeholder="username">
+            <input type="password" name="pass"  placeholder="password">
+            <input type="text"  name="nPeople" placeholder="number of people">
+            <input type="text"  name="accID" placeholder="accommodation id">
+            <input type="date" name="date" >
+            <input type="submit" value="book">
+        </form>
+        <hr>
+        <p>Task 3 - Create an AJAX front end which connects to the web service, and in doing so, allows users to look up all places to stay in a given location. Results must be presented in a user-friendly manner.</p><a href="p2sNOMAP/index.html">Places To Stay - Mapless Edition</a>
+        <hr>
+        <h1>Places To Stay Site</h1>
+        <p>Task 5 - PlacesToStay's own site (not VisitHampshire!) should include web maps (e.g. Leaflet, Google Maps or similar). AS A RESULT OF THE RECENT CHANGES IN WHICH HTTPS IS NOW REQUIRED FOR GEOLOCATION, YOU DO NOT HAVE TO IMPLEMENT GEOLOCATION CODE.</p>
+        <a href="placesToStay/index.html">PlacesToStay Complete</a>
+        <p>Task 6 - On PlacesToStay's own site, extend the AJAX search (task 3) so that all items of accommodation in that location will be shown on the map as markers, as well as shown as text search results.</p>
+        <a href="placesToStay/index.html">PlacesToStay Complete</a>
+        <p>Task 8 -	When the user clicks on each marker, a popup describing that item of accommodation should appear. The popup should have a "Book" link allowing the user to book the item of accommodation. When the user clicks "Book" they should enter a date (plus ideally the number of people, if not, assume one) and the item should be booked for that date. The user should be provided with feedback as to whether the booking was successful or not. The front-end must fully use JavaScript and AJAX without any page refresh required.</p>
+        <a href="placesToStay/index.html">PlacesToStay Complete</a>
+        <p>Task 9 -	Create a new "Check Availability" link on the popup from Task 8. When the user clicks on this link, a graphical view should appear, showing which dates are available, ideally with a colour scheme such as red=booked, green=available. This need not be arranged by month; it can simply be an arbitrary 20 days sometime in the future (e.g. 1-20 June 2018). The server-side component of this task must be written as a web service and the front-end must make use of HTML5 canvas (not just divs and CSS, or any jQuery UI components or similar) and fully use JavaScript and AJAX without any page refresh required. For an A1 it should then be possible to book a date by clicking on it.</p>
+        <a href="placesToStay/index.html">PlacesToStay Complete</a>
+        <hr>
+        <h1>Visit Hampshire Site</h1>
+        <p>Task 4 - Create a third-party website, VisitHampshire, which is a tourist information site for Hampshire. It should use the PlacesToStay web service rather than its own database. It should allow its own users to look up places to stay of a given type within Hampshire, making use of the web service. Results must be presented in a user-friendly manner.</p><a href="visitHampshire/index.php">VisitHampshire Complete</a>
+        <p>Task 7 -	VisitHampshire should allow a user to book an item of accommodation on a given date, by interacting with the PlacesToStay web service. This task should be linked with task 4. Ideally, the user should be able to specify the number of people; if not, assume one.</p><a href="visitHampshire/index.php">VisitHampshire Complete</a>
+        <hr>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SQLite</string>
+    <string name="ADD_SONG">ADD SONG</string>
+    <string name="SEARCH">Search</string>
+    <string name="UPDATE">Update</string>
+    <string name="DELETE">Delete</string>
+    <string name="ID">ID</string>
+    <string name="title">Title</string>
+    <string name="artist">Artist</string>
+    <string name="year">Year</string>
+</resources>

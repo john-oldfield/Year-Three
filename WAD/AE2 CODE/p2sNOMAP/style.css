@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Righteous');
+
+body
+{
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+}
+
+#wrapper
+{
+    margin: 0 auto;
+}
+
+header
+{
+    height: 150px;
+    margin: 0 auto;
+    background-color: darkslateblue;
+}
+
+h1
+{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Righteous', cursive;
+    color: #FFDE00;
+    font-size: 70px;
+}
+
+form p
+{
+    font-family: 'Righteous', cursive;
+    font-size: 28px;
+}
+
+#form-container
+{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#map
+{
+    margin: 0 auto;
+}
+
+#searchForm
+{
+    margin: 0 auto;
+    border: solid 1.5px darkslateblue;
+    border-radius: 5px;
+    width: 600px;
+    height: 220px;
+}
+
+#searchForm input[type="text"]
+{
+    font-size: 16px;
+    height: 30px;
+    width: 75%;
+    padding: 5px;
+}
+
+#searchForm span
+{
+    font-size: 14px;
+}
+
+#searchForm input[type="button"]
+{
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: darkslateblue;
+    color: #FFDE00;
+    cursor: pointer;
+    width: 20%;
+}
+
+#searchResults
+{
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+#error
+{
+    color: red;
+    font-weight: bold;
+}
+
+#map
+{
+    margin-top: 10px;
+}
+
+#booking-form-container
+{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#booking-form
+{
+    display: none;
+    margin: 0 auto;
+    border: solid 1.5px darkslateblue;
+    border-radius: 5px;
+    width: 600px;
+    height: 340px;
+}
+
+#booking-form input[type="date"]
+{
+    width: 75%;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#booking-form input[type="text"], #booking-form input[type="password"]
+{
+    font-size: 16px;
+    height: 30px;
+    width: 75%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#booking-form input[type="button"]
+{
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: darkslateblue;
+    color: #FFDE00;
+    cursor: pointer;
+    width: 20%;
+}
+
+#booking-results
+{
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+#canvas-container
+{
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+
+#quickBookTitle
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#myCanvas
+{
+    border: solid 1px black;
+}
+
+#message-container
+{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}
